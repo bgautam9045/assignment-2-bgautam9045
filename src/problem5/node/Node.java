@@ -25,6 +25,15 @@ public class Node {
         return next;
     }
 
+    public void setS(Student s) {
+        this.s = s;
+    }
+
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
 
 
 }
