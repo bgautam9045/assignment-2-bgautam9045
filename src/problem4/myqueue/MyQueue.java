@@ -84,7 +84,7 @@ public class MyQueue {
         preOrder(node.getLeft());
         preOrder(node.getRight());
     }
-   /* public void printSuccessor(int data) {
+    public void printSuccessor(int data) {
 
         tmp = front;
         while (tmp.getNode().getData() != data && tmp != null) {
@@ -97,6 +97,6 @@ public class MyQueue {
             System.out.println("No preorder Successor found");
         }
 
-    }*/
+    }
 }
 
