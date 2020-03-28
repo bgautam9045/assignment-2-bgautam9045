@@ -19,11 +19,11 @@ class TraversalOperations {
         printInorder(node.getRight());
     }
 
-  /*  void printPreorder(TreeNode node) {
+   void printPreorder(TreeNode node) {
         if (node == null)
             return;
         System.out.print(node.getData() + " ");
         printPreorder(node.getLeft());
         printPreorder(node.getRight());
-    }*/
+    }
 }
