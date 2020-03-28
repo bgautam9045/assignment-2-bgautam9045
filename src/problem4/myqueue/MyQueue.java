@@ -75,7 +75,7 @@ public class MyQueue {
             tmp = front;
         }
     }
-  /*  public void preOrder(TreeNode node) {
+   public void preOrder(TreeNode node) {
         if (node == null) {
             return;
         }
@@ -84,7 +84,7 @@ public class MyQueue {
         preOrder(node.getLeft());
         preOrder(node.getRight());
     }
-    public void printSuccessor(int data) {
+   /* public void printSuccessor(int data) {
 
         tmp = front;
         while (tmp.getNode().getData() != data && tmp != null) {
