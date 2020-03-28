@@ -91,4 +91,9 @@ public class MyBinarySearchTree {
             q.remove();
         }
     }
+    public void leftView(TreeNode root) {
+        q = new LinkedList<TreeNode>();
+
+        printLeftTree(root);
+    }
 }
