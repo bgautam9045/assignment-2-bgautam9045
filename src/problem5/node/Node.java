@@ -16,4 +16,15 @@ public class Node {
         this.s = s;
         next = null;
     }
+    public Student getS() {
+        return s;
+    }
+
+
+    public Node getNext() {
+        return next;
+    }
+
+
+
 }
