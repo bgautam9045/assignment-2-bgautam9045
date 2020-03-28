@@ -60,4 +60,35 @@ public class MyBinarySearchTree {
         }
         System.out.println("count of Nodes without left child: " + count);
     }
+    // Utility function to print the left view of
+    // the binary tree
+    public void printLeftTree(TreeNode root) {
+        if (root == null)
+            return;
+
+        // add root
+        q.add(root);
+
+        // Delimiter
+        q.add(null);
+
+        while (q.size() > 0) {
+            TreeNode temp = q.peek();
+            if (temp != null) {
+                System.out.print(temp.getData() + " ");
+                while (q.peek() != null) {
+                    if (temp.getLeft() != null)
+                        q.add(temp.getLeft());
+                    if (temp.getRight() != null)
+                        q.add(temp.getRight());
+                    q.remove();
+
+                    temp = q.peek();
+                }
+                q.add(null);
+            }
+
+            q.remove();
+        }
+    }
 }
