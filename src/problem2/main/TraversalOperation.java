@@ -11,7 +11,7 @@ class TraversalOperations {
         System.out.println(node.getData() + " ");
     }
 
-    void printInorder(TreeNode node) {
+   /* void printInorder(TreeNode node) {
         if (node == null)
             return;
         printInorder(node.getLeft());
@@ -25,5 +25,5 @@ class TraversalOperations {
         System.out.print(node.getData() + " ");
         printPreorder(node.getLeft());
         printPreorder(node.getRight());
-    }
+    }*/
 }
