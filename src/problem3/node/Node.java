@@ -15,4 +15,17 @@ public class Node {
         this.next = null;
         this.priority = priority;
     }
+    public int getData() {
+        return data;
+    }
+
+
+    public Node getNext() {
+        return next;
+    }
+
+    public int getPriority() {
+        return priority;
+    }
+
 }
