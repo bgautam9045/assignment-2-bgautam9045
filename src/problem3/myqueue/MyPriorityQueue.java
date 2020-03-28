@@ -13,5 +13,8 @@ public class MyPriorityQueue {
         this.front = null;
         this.rear = null;
     }
+    public boolean isEmpty() {
+        return front == null;
+    }
 
 }
