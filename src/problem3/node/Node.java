@@ -28,4 +28,18 @@ public class Node {
         return priority;
     }
 
+    public void setData(int data) {
+        this.data = data;
+    }
+
+
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
+
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
 }
