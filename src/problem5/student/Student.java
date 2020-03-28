@@ -36,4 +36,12 @@ public class Student {
     public void setRollno(int rollno) {
         this.rollno = rollno;
     }
+    @Override
+    public String toString() {
+        return "name:'" + name + '\'' +
+                ", rollno=" + rollno +
+                ", backlog=" + backlog +
+                ", apperingcount=" + apperingcount
+                ;
+    }
 }
